@@ -15,10 +15,18 @@ html {
 
 .banner {
   position: absolute;
+  overflow: hidden;
+  max-height: 500px;
+}
+
+body {
+  margin: 0;
+  transform: translateX(-50%);
 }
 
 div {
   position: relative;
+  font-weight: bold;
 }
 
 p {
@@ -28,15 +36,20 @@ p {
   margin: 0;
   padding: .3rem 1rem;
   font-size: 2rem;
+  position: absolute;
+  font-style: italic;
 }
 
 h2 {
-  padding: .3rem 1rem .3rem calc(1rem - 4px);
+  padding: .3rem 1rem .3rem;
   position: absolute;
   left: 0;
   top: 0;
   font-size: 4rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  color: #fff;
+  margin-top: 0;
+}
 
+span {
+  background-color: rgba(0, 0, 0, 0.5);
 }
